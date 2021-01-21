@@ -37,7 +37,7 @@ An image gallery design page part of [DevChallenges](https://devchallenges.io/) 
 All contributions are welcomed! (but please submit an issue to make sure the PR is warranted first)
 
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/StevenPss/image-gallery/blob/dev/static/demo.png)
 
 
 ### Built With
