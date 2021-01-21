@@ -70,4 +70,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## License
 
-This project is an open-sourced software licensed under the [MIT license]().
+This project is an open-sourced software licensed under the [MIT license](https://github.com/StevenPss/image-gallery/blob/dev/LICENSE).
