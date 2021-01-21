@@ -8,16 +8,17 @@
     <link rel="shortcut icon" href="static/devchallenges.png" type="image/x-icon">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body style="font-family:Montserrat;">
 
-    <div class="px-4 text-gray-600">
-        <div class="flex justify-center items-center w-full h-full">
+    <div class="px-4 md:px-20 text-gray-600">
+        <div class="flex flex-col justify-center items-center h-screen md:h-auto">
             <!--user info-->
             <div class="flex flex-col text-center">
                 <!--user details-->
-                <div class="flex justify-center mt-6">
+                <div class="flex justify-center mt-0 md:mt-6">
                     <img class="w-2/4 md:w-1/4 mb-3 rounded-xl" src="static/profilePhoto.png" alt="">
                 </div>
                 <div class="mb-2">
@@ -42,7 +43,34 @@
             </div><!--end user info-->
 
 
+            <!--gallery-->
+            <div class="grid-container mt-8 mb-5">
+                <div class="p1">
+                    <img class="rounded-xl shadow-md" src="static/photo1.png" alt="photo1">
+                </div>
+                <div class="p2">
+                    <img class="rounded-xl shadow-md" src="static/photo2.png" alt="photo2">
+                </div>
+                <div class="p3">
+                    <img class="rounded-xl shadow-md" src="static/photo3.png" alt="photo3">
+                </div>
+                <div class="p4">
+                    <img class="rounded-xl shadow-md" src="static/photo6.png" alt="photo6">
+                </div>
+                <div class="p5">
+                    <img class="rounded-xl shadow-md" src="static/photo5.png" alt="photo5">
+                </div>
+                <div class="p6">
+                    <img class="rounded-xl shadow-md" src="static/photo4.png" alt="photo4">
+                </div>
+            </div><!--end of gallery-->
+
+
         </div>
+        <!--footer-->
+        <footer class="flex items-center justify-center text-gray-500 py-3">
+            <span class="mr-1"><a href="https://github.com/StevenPss">StevenPss </a></span>@ <span class="hover:text-gray-600 ml-1"><a href="https://devchallenges.io">DevChallenges.io</a></span>
+        </footer><!--end of footer-->
     </div>
     
 </body>

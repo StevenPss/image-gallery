@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px 40px; /*20 40*/
+    grid-template-areas:
+      "p1 p2 p2"
+      "p3 p3 p6"
+      "p4 p5 p6";
+}
+  
+.p1 { grid-area: p1; }
+
+.p2 { grid-area: p2; }
+
+.p3 { grid-area: p3; }
+
+.p4 { grid-area: p4; }
+
+.p5 { grid-area: p5; }
+
+.p6 { grid-area: p6; }
+
+@media (max-width: 768px) { 
+  .grid-container{
+    gap: 10px 10px;
+  }
+}
+  
